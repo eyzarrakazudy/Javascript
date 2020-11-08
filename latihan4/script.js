@@ -1,4 +1,9 @@
 alert('Hello World!')
 var nama = prompt('masukkan nama')
 alert(nama)
-confirm('kamu yakin?')
+var tes = confirm('kamu yakin?')
+if( tes === true ) {
+    alert('user menekan OK!')
+} else {
+    alert('user menekan CANCEL!')
+}
