@@ -1,2 +1,3 @@
 alert('Hello World!')
-prompt('masukkan nama')
+var nama = prompt('masukkan nama')
+alert(nama)
