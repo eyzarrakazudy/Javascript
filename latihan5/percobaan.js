@@ -1,0 +1,7 @@
+alert('mulai')
+alert('Hello World 1')
+alert('Hello World 2')
+alert('Hello World 3')
+alert('Hello World 4')
+alert('Hello World 5')
+alert('selesai')
