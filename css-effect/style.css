@@ -27,7 +27,7 @@ body {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: ease-in-out;
+    transition: all .5s ease-in-out
 }
 .menu-btn_burger::before, 
 .menu-btn_burger::after {
