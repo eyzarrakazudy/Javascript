@@ -4,6 +4,8 @@ body {
 .wrapper {
     background-color: #ccc;
     height: 400px;
+    position: relative;
+    top: 100px;
 }
 .img-box {
     height: 250px;
