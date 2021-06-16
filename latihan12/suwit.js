@@ -1,7 +1,7 @@
 var tanya = true
 while ( tanya ) {
     // menangkap pilihan player
-    var p = prompt('pilih : gajah, semut, orang')
+    var p = prompt('pililah : gajah, semut, orang')
 
     // menangkap pilihan komputer
     // membangkitkan bilangan random
