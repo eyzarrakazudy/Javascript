@@ -1,10 +1,8 @@
-// global scope / window scope
 var a = 1
 
-function test() {
-    // name conflict
-     a = 2
+function test(a) {
+    console.log(a)
 }
 
-test()
+test(a)
 console.log(a)
