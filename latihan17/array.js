@@ -23,7 +23,7 @@
 
 // method pada array
 // 1. join
- var arr = ['sandhika', 'galih', 'nofa']
+// var arr = ['sandhika', 'galih', 'nofa']
 // console.log(arr.join(' - '))
 
 // 2. push & pop
@@ -35,5 +35,20 @@
 
 // 3. unshift & shift
 // arr.unshift('doddy')
-arr.shift()
+// arr.shift()
+// console.log(arr.join(' - '))
+
+// 1. splice
+// splice(indexawal, maudihapusberapa, elemen1, elemen2, ...)
+
+// var arr = ['sandhika', 'galih', 'nofa']
+// arr.splice(1, 2, 'doddy', 'fitri')
+// console.log(arr.join(' - '))
+
+// 2. slice
+// slice(awal, akhir)
+
+var arr = ['sandhika', 'galih', 'nofa', 'doddy', 'fitri']
+var arr2 = arr.slice(1,4)
 console.log(arr.join(' - '))
+console.log(arr2.join(' - '))
