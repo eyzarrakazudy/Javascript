@@ -45,6 +45,7 @@ nav{
     background: #efefefef;
     width: 350px;
     border-radius: 20px;
+    display: flex;
     align-items: center;
     padding: 0 15px;
 }
@@ -72,21 +73,18 @@ nav{
     top: 0;
     right: 0;
 }
-
 .container{
     display: flex;
     justify-content: space-between;
     padding: 13px 5%;
 }
 .left-sidebar{
-    background: #cdbffa;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
 }
 .right-sidebar{
-    background: #cdbffa;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
@@ -95,5 +93,27 @@ nav{
 .main-content{
     flex-basis: 47%;
 }
-
+.imp-links a, .shortcut-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+.imp-links a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.imp-links a:last-child{
+    color: #1876f2;
+}
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+.shortcut-links a img{
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
 
